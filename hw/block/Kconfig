@@ -40,3 +40,9 @@ config VHOST_USER_BLK
 
 config SWIM
     bool
+
+config NVME_VPCI
+    bool
+    select VPCI
+    default y if PCI_DEVICES
+    depends on PCI

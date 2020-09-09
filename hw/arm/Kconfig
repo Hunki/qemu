@@ -503,3 +503,19 @@ config ARMSSE_CPUID
 
 config ARMSSE_MHU
     bool
+
+config COSMOS_PLUS
+    bool
+    select A9MPCORE
+    select CADENCE # UART
+    select PFLASH_CFI02
+    select PL330
+    # select SDHCI
+    # select SSI_M25P80
+    # select USB_EHCI_SYSBUS
+    # select XILINX # UART
+    select XILINX_AXI
+    select XILINX_SPI
+    select XILINX_SPIPS
+    select ZYNQ_DEVCFG
+    select NVME_TIGER4

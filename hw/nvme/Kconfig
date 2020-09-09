@@ -1,0 +1,5 @@
+config VPCI
+    bool
+
+config NVME_TIGER4
+    bool

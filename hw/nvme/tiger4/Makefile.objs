@@ -1,0 +1,1 @@
+obj-y += tiger4fmc.o tiger4nvme.o

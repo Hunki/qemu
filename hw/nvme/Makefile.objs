@@ -1,0 +1,2 @@
+obj-$(CONFIG_NVME_TIGER4) += tiger4/
+obj-$(CONFIG_VPCI) += vpci.o
